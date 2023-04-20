@@ -117,9 +117,7 @@ footer p {
     font-family: 'Roboto', sans-serif;
     }
     
-    .card-title, .card-text{
-    font-family: 'Poppins', sans-serif;
-    }
+    
     
     h1{
     padding-top: 5px;
@@ -133,3 +131,22 @@ background-color: #141d2e;
 .icon-link svg{
     color:#141d2e ;
 }
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    text-align:justify;
+    }
+    
+    .card-title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    }
+
+    .bg-lista{
+        background-color: rgb(27, 223, 20);
+        color: black;
+    }
+
+    .list-group-item img{
+margin-right: 5px;
+    }
