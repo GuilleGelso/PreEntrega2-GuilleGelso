@@ -1,0 +1,25 @@
+
+    @import 'components/navbar';
+    @import 'components/footer';
+
+
+    @import 'layout/index';
+    @import 'layout/mediaqueries';
+    @import 'layout/novedades';
+    @import 'layout/nosotros';
+    @import 'layout/contacto';
+    
+
+    
+    .container div{
+        margin-right: 5px;
+        margin-left: 5px;
+        justify-content: space-between;
+        
+     
+    }
+     
+    
+    h1{
+        text-align: center;
+    }
