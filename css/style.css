@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-list-2, .nav-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .nav-item {
   padding: 2px;
   font-size: large;
@@ -17,22 +28,13 @@
 
 .nav-list {
   text-align: center;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .nav-list-2 {
   display: flex;
   justify-content: space-evenly;
-  text-decoration: none;
-  list-style-type: none;
   padding-bottom: 60px;
   padding-top: 60px;
-}
-
-.nav-list-2 {
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .navbar {
@@ -69,8 +71,6 @@ footer p {
     display: flex;
     justify-content: center;
     text-align: center;
-    text-decoration: none;
-    list-style-type: none;
   }
   .mapa {
     height: 100%;
@@ -80,8 +80,6 @@ footer p {
   .nav-list-2 {
     display: flex;
     justify-content: space-evenly;
-    text-decoration: none;
-    list-style-type: none;
     padding-bottom: 60px;
     padding-top: 60px;
     font-size: 20px;

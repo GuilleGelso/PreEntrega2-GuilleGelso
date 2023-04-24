@@ -19,24 +19,18 @@
 
     .nav-list {
         text-align: center;
-         text-decoration: none;
-         list-style-type: none;
+        
      }
 
      .nav-list-2{
         display: flex;
         justify-content: space-evenly;
-        text-decoration: none;
-        list-style-type: none;
         padding-bottom: 60px;
         padding-top: 60px;
         }
 
-    .nav-list-2{
-    text-decoration: none;
-    list-style-type: none;
-    }
+    
 
     .navbar{
-    background-color: #141d2e;
+    background-color: $colorprimario;
     }

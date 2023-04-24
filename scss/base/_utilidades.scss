@@ -1,0 +1,10 @@
+@mixin texto-deco($text-decoration, $list-style-type) {
+    text-decoration:$text-decoration;
+    list-style-type: $list-style-type;
+}
+
+
+
+.nav-list-2,  .nav-list{
+    @include texto-deco (none,none)
+}
